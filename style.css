@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    line-height: normal;
+}
+body{
+    background-image: url(Asset/cloud.jpg);
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no repeat;
+}
+ h1{
+    color: brown;
+    font-size: 40px;
+ }
+form{
+    background-color: rgba(255, 255, 255, 0.468);
+    width: 70%;
+    padding: 20px;
+    column-width: 60;
+    margin: auto;
+    margin-bottom: 20;
+}
+.container{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+
+}
+input[type="submit" ] {
+    padding-block: 1px;
+    padding-inline: 4px;
+    transition: background-color 0.25; 
+
+ }
+.header{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.email{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.age{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.phone{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.textbox{
+    width: 80%
+}
+}
+.select{
+    width: 80% ;
+}
+.language{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.recommend{
+    border: 0;
+}
+.submit{
+    width: 20%;
+    padding: 40%;
+    background-color: rgba(6, 240, 88, 0.598);
+    background-clip: padding-box;
+    height: 9;
+}
